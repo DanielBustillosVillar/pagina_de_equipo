@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+.titulo{
+    margin-top: 71px;
+    margin-left: 12px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0.045em;
+    color: #000000;
+}
+.subtitulo{
+    margin-top: 38px;
+    margin-left: 12px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+}
+.mensaje{
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: 21px;
+}
+.miembros{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 19px;
+}
+
+.miembros .miembro:nth-child(2n){
+    margin-top: 40px;
+}
+.miembro{
+    width: 50%;
+    
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.img-miembro{
+    width: 80%;
+}
+img{
+    width: 100%;
+}
+.puesto{
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: normal;
+    font-style: normal;
+    transform: translateX(35%) translateY(-890%) rotate(90deg);
+}
+.nombre{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 21px;
+    font-weight: 600px;
+    font-style: normal;
+}
