@@ -21,6 +21,7 @@
 }
 .mensaje{
     margin-top: 10px;
+    margin-bottom: 20px;
     margin-left: 12px;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -28,19 +29,15 @@
     line-height: 21px;
 }
 .miembros{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 70px 19px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .miembros .miembro:nth-child(2n){
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 .miembro{
-    width: 50%;
-    
-    /* display: flex;
-    flex-wrap: wrap; */
+    padding-bottom: 50px;
 }
 .img-miembro{
     width: 80%;
