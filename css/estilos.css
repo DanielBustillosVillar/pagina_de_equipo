@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'PT Serif', serif;
+    box-sizing: border-box
 }
 .titulo{
     margin-top: 71px;
@@ -28,9 +29,9 @@
     line-height: 21px;
 }
 .miembros{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 70px 19px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
 }
 
 .miembros .miembro:nth-child(2n){
