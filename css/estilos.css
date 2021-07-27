@@ -30,16 +30,16 @@
     line-height: 21px;
 }
 .miembros{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 20px;
 }
 
 .miembros .miembro:nth-child(2n){
     margin-top: 40px;
 }
 .miembro{
-    padding-bottom: 50px;
+    width: 50%;
 }
 .img-miembro{
     width: 80%;
