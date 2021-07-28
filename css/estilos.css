@@ -29,6 +29,32 @@
     font-weight: normal;
     line-height: 21px;
 }
+@media (min-width: 768px){
+    .caja{
+        display: flex;
+    }
+    .titulo{
+        padding-top: 110px;
+        padding-left: 243px;
+        width: auto;
+        margin: 0;
+    }
+    .who{
+        margin: 0;
+        padding-left: 215px;
+        padding-right: 10%;
+        width: 55%;
+
+    }
+    .subtitulo{
+        padding-top: 110px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+    .mensaje{
+        margin: 0;
+    }
+}
 .miembros{
     display: flex;
     flex-wrap: wrap;
@@ -60,4 +86,47 @@ img{
     line-height: 21px;
     font-weight: 600px;
     font-style: normal;
+}
+@media (min-width: 768px){
+    .miembros{
+        margin: 0;
+        padding: 173px 240px;
+    }
+    .miembro{
+        width: 30%;
+        margin-right: 5%;
+    }
+    .miembros .miembro:nth-child(2n){
+        margin-top: 0;
+    }
+    .miembros .miembro:nth-child(3n+2) {
+        margin-top: 40px;
+    }
+    .miembros .miembro:nth-child(3n){
+        margin-right: 0;
+    }
+    .miembros .miembro:nth-child(n+4){
+        padding-top: 70px;
+    }
+    .img-miembro{
+        width: 238px;
+    }
+    .puesto{
+        font-size: 13px;
+        transform: translateX(52%) translateY(-1750%) rotate(90deg);
+    }
+}
+
+
+.footer{
+    margin: 144px 0 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    color: #BDBDBD;
+}
+.footer a{
+    text-decoration: none;
+    color: #333333;
 }
